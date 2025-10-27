@@ -36,7 +36,7 @@ a {
 }
 
 .nav-link:hover,
-.nav.link:focus,
+.nav-link:focus,
 .contacts-link:hover,
 .contacts-link:focus {
   color: #404bbf;
@@ -61,12 +61,11 @@ a {
   background-color: #2e2f42;
 }
 
-h1 {
+.heading-one {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #fff;
 }
 
@@ -88,16 +87,30 @@ button {
   background-color: #404bbf;
 }
 
-h2,
-h3 {
+.heading-two,
+.heading-three {
   color: #2e2f42;
 }
 
-h2 {
+.heading-two {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.heading-three {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.heading-one,
+.name-heading,
+.text-team {
   text-align: center;
 }
 
@@ -109,6 +122,10 @@ p {
 
 .team-section {
   background-color: #f4f4fd;
+}
+
+.team-item {
+  background-color: #ffffff;
 }
 
 .footer-logo .footer-part,
